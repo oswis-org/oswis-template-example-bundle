@@ -4,7 +4,7 @@ namespace Zakjakub\OswisTemplateExampleBundle\Controller\MediaObject;
 
 use Zakjakub\OswisCoreBundle\Controller\AbstractClass\AbstractImageAction;
 use Zakjakub\OswisCoreBundle\Entity\AbstractClass\AbstractImage;
-use Zakjakub\OswisWebBundle\Entity\MediaObject\TemplateImage;
+use Zakjakub\OswisTemplateExampleBundle\Entity\MediaObject\TemplateImage;
 
 final class CreateTemplateImageAction extends AbstractImageAction
 {

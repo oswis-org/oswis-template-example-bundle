@@ -6,7 +6,7 @@
 namespace Zakjakub\OswisTemplateExampleBundle\Form\MediaObjects;
 
 use Zakjakub\OswisCoreBundle\Form\AbstractClass\AbstractImageType;
-use Zakjakub\OswisWebBundle\Entity\MediaObject\TemplateImage;
+use Zakjakub\OswisTemplateExampleBundle\Entity\MediaObject\TemplateImage;
 
 final class TemplateImageType extends AbstractImageType
 {

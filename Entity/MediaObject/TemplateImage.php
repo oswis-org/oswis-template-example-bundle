@@ -3,7 +3,7 @@
  * @noinspection PropertyInitializationFlawsInspection
  */
 
-namespace Zakjakub\OswisWebBundle\Entity\MediaObject;
+namespace Zakjakub\OswisTemplateExampleBundle\Entity\MediaObject;
 
 use ApiPlatform\Core\Annotation\ApiResource;
 use Symfony\Component\HttpFoundation\File\File;
