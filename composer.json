@@ -1,0 +1,41 @@
+{
+  "name": "zakjakub/oswis-template-example-bundle",
+  "description": "Example template module for One Simple Web IS.",
+  "homepage": "https://github.com/zakjakub/oswis-template-bundle",
+  "type": "symfony-bundle",
+  "minimum-stability": "stable",
+  "keywords": [
+    "oswis",
+    "example",
+    "template"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zakjakub",
+      "email": "mail@jakubzak.eu",
+      "homepage": "https://jakubzak.cz",
+      "role": "author"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "zakjakub/oswis-core-bundle": "*"
+  },
+  "require-dev": {
+    "bigit/vokativ": "dev-master",
+    "roave/security-advisories": "dev-master",
+    "phpstan/extension-installer": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zakjakub\\OswisTemplateExampleBundle\\": ""
+    },
+    "classmap": [
+      ""
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
