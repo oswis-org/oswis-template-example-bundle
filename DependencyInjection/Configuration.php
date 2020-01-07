@@ -16,7 +16,7 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder = new TreeBuilder('zakjakub_oswis_template_example');
         $rootNode = $treeBuilder->getRootNode();
-        $rootNode->info('Default configuration for template example module for OSWIS (One Simple Web IS).')->children()->end()->end();
+        $rootNode->info('Default configuration for template example module for OSWIS (One Simple Web IS).')->end();
 
         return $treeBuilder;
     }

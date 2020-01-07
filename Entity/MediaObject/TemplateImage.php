@@ -1,7 +1,4 @@
 <?php
-/**
- * @noinspection PropertyInitializationFlawsInspection
- */
 
 namespace Zakjakub\OswisTemplateExampleBundle\Entity\MediaObject;
 
@@ -12,12 +9,12 @@ use Zakjakub\OswisTemplateExampleBundle\Controller\MediaObject\CreateTemplateIma
 
 /**
  * @Doctrine\ORM\Mapping\Entity()
- * @Doctrine\ORM\Mapping\Table(name="web_image")
+ * @Doctrine\ORM\Mapping\Table(name="template_example_image")
  * @ApiResource(iri="http://schema.org/ImageObject", collectionOperations={
  *     "get",
  *     "post"={
  *         "method"="POST",
- *         "path"="/template_example_tenplate_image",
+ *         "path"="/template_example_template_image",
  *         "controller"=CreateTemplateImageAction::class,
  *         "defaults"={"_api_receive"=false},
  *     },
@@ -29,7 +26,7 @@ class TemplateImage extends AbstractImage
     /**
      * @Symfony\Component\Validator\Constraints\NotNull()
      * @Vich\UploaderBundle\Mapping\Annotation\UploadableField(
-     *     mapping="web_image",
+     *     mapping="template_example_image",
      *     fileNameProperty="contentUrl",
      *     dimensions={"contentDimensionsWidth", "contentDimensionsHeight"},
      *     mimeType="contentDimensionsMimeType"
